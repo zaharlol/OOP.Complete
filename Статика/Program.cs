@@ -1,4 +1,7 @@
-﻿class Obj
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
+
+class Obj
 {
     public string Name;
     public string Description;
@@ -28,12 +31,41 @@ class Program
 {
     static void Main(string[] args)
     {
-        int num1 = 3;
-        int num2 = 58;
+        int num1 = 7;
+        int num2 = -13;
+        int num3 = 0;
 
-        Helper.Swap(ref num1, ref num2);
+        Console.WriteLine(num1.GetNegative()); //-7
+        Console.WriteLine(num1.GetPositive()); //7
+        Console.WriteLine(num2.GetNegative()); //-13
+        Console.WriteLine(num2.GetPositive()); //13
+        Console.WriteLine(num3.GetNegative()); //0
+        Console.WriteLine(num3.GetPositive()); //0
+    }
+}
 
-        Console.WriteLine(num1); 
-        Console.WriteLine(num2); 
+static class Int
+{
+    public static int GetNegative(this int a)
+    {
+        if (a <= 0) 
+        {
+            return a;
+        }
+        else 
+        {
+            return -a; 
+        }
+    }
+    public static int GetPositive(this int a)
+    {
+        if (a > 0)
+        {
+            return a;
+        }
+        else
+        {
+            return -a;
+        }
     }
 }
