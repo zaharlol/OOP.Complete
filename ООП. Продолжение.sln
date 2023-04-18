@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Абстракция", "А�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Статика", "Статика\Статика.csproj", "{83B78891-DB21-4B15-AE2D-8CEC36DA3ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Обобщения", "Обобщения\Обобщения.csproj", "{DC53AF5B-FE66-4D76-B0FA-40AEF8E46F27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Обобщения", "Обобщения\Обобщения.csproj", "{DC53AF5B-FE66-4D76-B0FA-40AEF8E46F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Итог", "Итог\Итог.csproj", "{8F17B760-73EC-412C-A463-6A3738AE2BB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DC53AF5B-FE66-4D76-B0FA-40AEF8E46F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC53AF5B-FE66-4D76-B0FA-40AEF8E46F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC53AF5B-FE66-4D76-B0FA-40AEF8E46F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F17B760-73EC-412C-A463-6A3738AE2BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F17B760-73EC-412C-A463-6A3738AE2BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F17B760-73EC-412C-A463-6A3738AE2BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F17B760-73EC-412C-A463-6A3738AE2BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
